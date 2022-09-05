@@ -5,7 +5,7 @@ The Avvy Domains Javascript client provides essential functionality for interact
 # Installation
 
 ```
-npm i --save @avvy/client
+npm i --save @jh-fantom/client
 ```
 
 # Usage
@@ -17,7 +17,7 @@ npm i --save @avvy/client
 Turn a .avax name into an EVM / C-Chain address:
 
 ```javascript
-import AVVY from '@avvy/client'
+import AVVY from '@jh-fantom/client'
 import { ethers } from 'ethers'
 
 const main = async () => {
